@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS units</title>
+</head>
+
+<body>
+
+    <style>
+
+        /*  rem stands for root element and inherists the property of root
+            em stands for element and inherits the property of parent */
+
+        html{
+            /* font-size: 22px; */
+        }
+
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .box {
+            box-sizing: border-box;
+            border: 2px solid black;
+            color: red;
+            background-color: yellow;
+            margin: 10px auto;
+            width: 80vw;
+            min-height: 10vh;
+            
+        }
+
+        .container {
+            box-sizing: border-box;
+            color: aqua;
+            border: 2px solid black;
+            background-color: antiquewhite;
+            font-size: 16px;
+            width: 80vw;
+            margin: 10px auto;
+            min-height: 40vh;
+        }
+
+        .container p{
+            font-size: 2rem;
+            min-height: 80vh;
+        }
+        
+        .last{
+            border: 2px solid black;
+            background-color: antiquewhite;
+            color: darkorange;
+            width: 80vw;
+            margin: auto;
+            font-size: 2em;
+            min-height: 10vh;
+        }
+    </style>
+    <div class="box">
+        I am a box
+    </div>
+
+    <div class="container">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora adipisci sunt pariatur!
+        </p>
+    </div>
+
+    <div class="last">
+        I am last and finally breathing ..+..
+    </div>
+
+
+</body>
+
+</html>
