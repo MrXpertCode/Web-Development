@@ -1,0 +1,12 @@
+li{
+    /* background-color: yellow;
+    list-style-position:inside */
+    /* list-style: inside devanagari; */
+    list-style-type: "⭐";
+    /* display: inline-flex; */
+    width: 100px;
+
+}
+li:hover{
+    color: rgb(0, 255, 242);
+}
