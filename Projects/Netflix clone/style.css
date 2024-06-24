@@ -1,0 +1,483 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Segoe UI;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+
+}
+
+.main {
+    /* border: 2px solid yellow; */
+    height: 644px;
+    background-image: url(image/img1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    position: relative;
+}
+
+.main .box {
+    /* border: 2px solid yellow; */
+    height: 644px;
+    width: 100vw;
+    opacity: 0.6;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    /* box-sizing: border-box; */
+    /* border: 2px solid yellow; */
+    max-width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 111px;
+
+}
+
+nav img {
+    /* border: 2px solid yellow; */
+    position: relative;
+    z-index: 1;
+}
+
+nav button {
+    /* border: 2px solid rgb(255, 145, 0); */
+    position: relative;
+    z-index: 1;
+    color: white;
+    background-color: red;
+    padding: 5px 15px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.body1 {
+    height: calc(100% - 111px);
+    color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+}
+
+.body1>:nth-child(1) {
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.body1>:nth-child(2) {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.body1>:nth-child(3) {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+.body1-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+
+}
+
+.body1-buttons input {
+    padding: 18px 214px 18px 12px;
+    background-color: black;
+    opacity: 0.5;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    border: 2px solid grey;
+}
+
+.body1-buttons button {
+    background-color: red;
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 12px 25px;
+    border-radius: 5px;
+    border: 2px solid red;
+
+}
+
+.seperator {
+    height: 8px;
+    background-color: rgba(97, 94, 94, 0.377);
+}
+
+.first {
+    /* border: 2px solid yellow; */
+    height: 450px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.text1 {
+    padding: 100px;
+}
+
+
+.text1 :nth-child(1) {
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+
+.text1 :nth-child(2) {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.tv {
+    padding-right: 200px;
+    position: relative;
+}
+
+
+.tv img {
+    width: 350px;
+    position: relative;
+    z-index: 1;
+
+}
+
+.tv video {
+    width: 253px;
+    position: absolute;
+    top: 57px;
+    left: 47px;
+}
+
+.second {
+    height: 450px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.phone img {
+    width: 500px;
+    padding-left: 100px;
+}
+
+.text2 {
+    padding-right: 100px;
+}
+
+.text2 :nth-child(1) {
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+
+.text2 :nth-child(2) {
+    font-size: 24px;
+    font-weight: 400;
+
+}
+
+.third {
+    height: 450px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text3 {
+    padding-left: 200px;
+}
+
+.text3 :nth-child(1) {
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+
+.text3 :nth-child(2) {
+    font-size: 24px;
+    font-weight: 400;
+
+}
+
+.box {
+    height: 400px;
+    width: 250px;
+    margin-right: 550px;
+}
+
+.fourth {
+    height: 450px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-wrap: wrap;
+    gap: 12px;
+}
+
+
+.fourth img {
+    border: 2px solid yellow;
+    width: 650px;
+    padding-left: 100px;
+}
+
+.text4 {
+    padding-right: 250px;
+}
+
+.text4 :nth-child(1) {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.text4 :nth-child(2) {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.fifth {
+    height: 90vh;
+    color: white;
+    text-align: center;
+
+}
+
+.fifth h2 {
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 24px;
+}
+
+.faq {
+    width: 70vw;
+    margin: auto;
+    background-color: rgb(45, 45, 45);
+    padding: 15px;
+    font-size: 24px;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.faq-next {
+    margin-top: 50px;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.faq-next> :nth-child(1) {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+
+.footer {
+    height: 450px;
+    color: rgba(255, 255, 255, 0.7);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 0 300px 0 200px;
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+.question {
+    color: white;
+}
+
+.footer-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 150px;
+    gap: 15px;
+
+    margin-bottom: 35px;
+}
+
+.footer-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 150px;
+    gap: 15px;
+}
+
+.footer-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 150px;
+    gap: 15px;
+}
+
+.footer-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 150px;
+    gap: 15px;
+}
+
+
+@media screen and (max-width: 1120px) {
+    .fourth {
+        .text4 {
+            padding-right: 100px;
+        }
+
+        .text4 :nth-child(1) {
+            font-size: 48px;
+            font-weight: 900;
+        }
+
+        .text4 :nth-child(2) {
+            font-size: 24px;
+            font-weight: 400;
+        }
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .first {
+        border: 2px solid yellow;
+        height: 450px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .text1 :nth-child(1) {
+        font-size: 32px;
+        font-weight: 700;
+        margin-bottom: 15px;
+    }
+
+    .text1 :nth-child(2) {
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .text1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .tv {
+        position: relative;
+        bottom: 100px;
+        left: 100px;
+    }
+
+    .fourth {
+        border: 2px solid yellow;
+        height: 600px;
+        color: white;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        padding: 150px;
+        /* text-wrap: wrap; */
+        /* gap: 12px; */
+    }
+
+
+    .fourth .text4 :nth-child(1) {
+        font-size: 32px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .fourth .text4 :nth-child(2) {
+        font-size: 18px;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .fourth img {
+        border: 2px solid yellow;
+        width: 650px;
+        /* padding-left: 100px; */
+    }
+
+    .text4 {
+        border: 2px solid green;
+        padding: 25px;
+        text-align: center;
+    }
+
+    .second {
+        border: 2px solid blue;
+        height: 450px;
+        color: white;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .phone img {
+        border: 2px solid green;
+        width: 500px;
+        /* padding-left: 100px; */
+    }
+
+    .text2 {
+        border: 2px solid yellow;
+        padding: 15px;
+    }
+
+    .text2 :nth-child(1) {
+        font-size: 33px;
+        font-weight: 700;
+    }
+
+    .text2 :nth-child(2) {
+        font-size: 18px;
+        font-weight: 400;
+
+    }
+
+
+    /* To continue... */
+}
