@@ -1,0 +1,1025 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Segoe UI;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+
+}
+
+.main {
+    /* border: 2px solid yellow; */
+    height: 644px;
+    background-image: url(image/img1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    position: relative;
+}
+
+.main .box {
+    /* border: 2px solid yellow; */
+    height: 644px;
+    width: 100vw;
+    opacity: 0.6;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    /* box-sizing: border-box; */
+    /* border: 2px solid yellow; */
+    max-width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 111px;
+
+}
+
+nav img {
+    /* border: 2px solid yellow; */
+    position: relative;
+    z-index: 1;
+}
+
+nav button {
+    /* border: 2px solid rgb(255, 145, 0); */
+    position: relative;
+    z-index: 1;
+    color: white;
+    background-color: red;
+    padding: 5px 15px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.main .body1 {
+    height: calc(100% - 111px);
+    color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+}
+
+.body1>:nth-child(1) {
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.body1>:nth-child(2) {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.body1>:nth-child(3) {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+.body1-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+
+}
+
+.body1-buttons input {
+    padding: 18px 214px 18px 12px;
+    background-color: black;
+    opacity: 0.5;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    border: 2px solid grey;
+}
+
+.body1-buttons button {
+    background-color: red;
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 12px 25px;
+    border-radius: 5px;
+    border: 2px solid red;
+
+}
+
+.seperator {
+    height: 8px;
+    background-color: rgba(97, 94, 94, 0.377);
+}
+
+.first {
+    /* border: 2px solid yellow; */
+    height: 450px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.text1 {
+    padding: 100px;
+}
+
+
+.text1 :nth-child(1) {
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+
+.text1 :nth-child(2) {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.tv {
+    padding-right: 200px;
+    position: relative;
+}
+
+
+.tv img {
+    width: 350px;
+    position: relative;
+    z-index: 1;
+
+}
+
+.tv video {
+    width: 253px;
+    position: absolute;
+    top: 57px;
+    left: 47px;
+}
+
+.second {
+    height: 450px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.phone img {
+    width: 500px;
+    padding-left: 100px;
+}
+
+.text2 {
+    padding-right: 100px;
+}
+
+.text2 :nth-child(1) {
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+
+.text2 :nth-child(2) {
+    font-size: 24px;
+    font-weight: 400;
+
+}
+
+.third {
+    height: 450px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text3 {
+    padding-left: 200px;
+}
+
+.text3 :nth-child(1) {
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+
+.text3 :nth-child(2) {
+    font-size: 24px;
+    font-weight: 400;
+
+}
+
+.box {
+    height: 400px;
+    width: 250px;
+    margin-right: 550px;
+}
+
+.fourth {
+    height: 450px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-wrap: wrap;
+    gap: 12px;
+}
+
+
+.fourth img {
+    width: 650px;
+    padding-left: 100px;
+}
+
+.text4 {
+    padding-right: 250px;
+}
+
+.text4 :nth-child(1) {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.text4 :nth-child(2) {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.fifth {
+    height: 50vh;
+    color: white;
+    text-align: center;
+
+}
+
+.fifth h2 {
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 24px;
+}
+
+.faq {
+    width: 70vw;
+    margin: auto;
+    background-color: rgb(45, 45, 45);
+    padding: 15px;
+    font-size: 24px;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.faq-next {
+    margin-top: 50px;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.faq-next> :nth-child(1) {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+
+.footer {
+    height: 450px;
+    color: rgba(255, 255, 255, 0.7);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 0 300px 0 200px;
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+.question {
+    color: white;
+}
+
+.footer-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 150px;
+    gap: 15px;
+
+    margin-bottom: 35px;
+}
+
+.footer-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 150px;
+    gap: 15px;
+}
+
+.footer-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 150px;
+    gap: 15px;
+}
+
+.footer-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 150px;
+    gap: 15px;
+}
+
+
+@media only screen and (max-width: 1120px) {
+
+    .body1>:nth-child(1) {
+        font-size: 33px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .body1>:nth-child(2) {
+        font-size: 18px;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .body1>:nth-child(3) {
+        font-size: 18px;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .first {
+        min-height: 650px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .text1 {
+        /* height: 100px; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .text1 :nth-child(1) {
+        font-size: 33px;
+        font-weight: 700;
+    }
+
+    .text1 :nth-child(2) {
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .tv {
+        padding: 0 0 100px 10px;
+        margin-bottom: 100px;
+        /* height: 400px; */
+        /* flex-direction: column;
+        justify-content: center;
+        align-items: center; */
+    }
+
+    .tv img {
+        width: 250px;
+        position: relative;
+        z-index: 1;
+
+    }
+
+    .tv video {
+        width: 183px;
+        position: absolute;
+        top: 40px;
+        left: 43px;
+    }
+
+    .second {
+        min-height: 650px;
+        ;
+        color: white;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .phone img {
+        width: 500px;
+        margin-right: 10vw;
+        text-align: center;
+    }
+
+    .text2 {
+        text-align: center;
+    }
+
+    .text2 :nth-child(1) {
+        font-size: 33px;
+        font-weight: 700;
+        margin-bottom: 15px;
+    }
+
+    .text2 :nth-child(2) {
+        font-size: 18px;
+        font-weight: 400;
+
+    }
+
+    .third {
+        min-height: 650px;
+        color: white;
+    }
+
+    .text3 {
+        padding-left: 20vw;
+        align-self: center;
+    }
+
+    .text3 :nth-child(1) {
+        font-size: 33px;
+        font-weight: 700;
+        margin-bottom: 15px;
+    }
+
+    .text3 :nth-child(2) {
+        font-size: 18px;
+        font-weight: 400;
+
+    }
+
+    .box {
+        height: 0px;
+        width: 0px;
+        margin-right: 0px;
+    }
+
+    .fourth {
+        height: 650px;
+        color: white;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        text-wrap: wrap;
+        gap: 12px;
+    }
+
+
+    .fourth img {
+        width: 50vw;
+        padding-left: 0px;
+    }
+
+    .text4 {
+        padding-right: 0px;
+
+    }
+
+    .text4 :nth-child(1) {
+        font-size: 33px;
+        font-weight: 700;
+    }
+
+    .text4 :nth-child(2) {
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .fifth {
+        height: 0px;
+        color: white;
+        text-align: center;
+    
+    }
+    
+    .fifth h2 {
+        font-size: 33px;
+        font-weight: 700;
+        margin-bottom: 24px;
+    }
+
+    .faq {
+        width: 60vw;
+        margin: auto;
+        background-color: rgb(45, 45, 45);
+        padding: 6px;
+        font-size: 18px;
+        font-weight: 400;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+    
+    .faq-next {
+        margin-top: 50px;
+        height: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .faq-next> :nth-child(1) {
+        font-size: 18px;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+
+
+    .body1-buttons {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+        flex-wrap: wrap; 
+        padding-bottom: 15px;
+    }
+    
+    .body1-buttons input {
+        padding: 15px 114px 15px 6px;
+        background-color: black;
+        opacity: 0.5;
+        color: white;
+        border-radius: 5px;
+        font-size: 16px;
+        font-weight: 400;
+        border: 2px solid grey;
+    }
+    
+    .body1-buttons button {
+        background-color: red;
+        color: white;
+        font-size: 18px;
+        font-weight: 500;
+        padding: 13px 10px;
+        border-radius: 5px;
+        border: 2px solid red;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 1120px) {
+
+    .body1>:nth-child(1) {
+        font-size: 33px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .body1>:nth-child(2) {
+        font-size: 18px;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .body1>:nth-child(3) {
+        font-size: 18px;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .first {
+        min-height: 650px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .text1 {
+        /* height: 100px; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .text1 :nth-child(1) {
+        font-size: 33px;
+        font-weight: 700;
+    }
+
+    .text1 :nth-child(2) {
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .tv {
+        padding: 0 0 100px 10px;
+        margin-bottom: 100px;
+
+    }
+
+    .tv img {
+        width: 250px;
+        position: relative;
+        z-index: 1;
+
+    }
+
+    .tv video {
+        width: 183px;
+        position: absolute;
+        top: 40px;
+        left: 43px;
+    }
+
+    .second {
+        min-height: 650px;
+        ;
+        color: white;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .phone img {
+        width: 500px;
+        margin-right: 10vw;
+        text-align: center;
+    }
+
+    .text2 {
+        text-align: center;
+    }
+
+    .text2 :nth-child(1) {
+        font-size: 33px;
+        font-weight: 700;
+        margin-bottom: 15px;
+    }
+
+    .text2 :nth-child(2) {
+        font-size: 18px;
+        font-weight: 400;
+
+    }
+
+    .third {
+        min-height: 650px;
+        color: white;
+    }
+
+    .text3 {
+        padding-left: 20vw;
+        align-self: center;
+    }
+
+    .text3 :nth-child(1) {
+        font-size: 33px;
+        font-weight: 700;
+        margin-bottom: 15px;
+    }
+
+    .text3 :nth-child(2) {
+        font-size: 18px;
+        font-weight: 400;
+
+    }
+
+    .box {
+        height: 0px;
+        width: 0px;
+        margin-right: 0px;
+    }
+
+    .fourth {
+        height: 650px;
+        color: white;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        text-wrap: wrap;
+        gap: 12px;
+    }
+
+
+    .fourth img {
+        width: 50vw;
+        padding-left: 0px;
+    }
+
+    .text4 {
+        padding-right: 0px;
+
+    }
+
+    .text4 :nth-child(1) {
+        font-size: 33px;
+        font-weight: 700;
+    }
+
+    .text4 :nth-child(2) {
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .fifth {
+        height: 100vh;
+        color: white;
+        overflow: scroll;
+    
+    }
+    
+    .fifth h2 {
+        font-size: 33px;
+        font-weight: 700;
+        margin-bottom: 24px;
+    }
+
+    .faq {
+        width: 60vw;
+        margin: auto;
+        background-color: rgb(45, 45, 45);
+        padding: 10px;
+        font-size: 18px;
+        font-weight: 400;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+    
+    .faq-next {
+        margin-top: 4px;
+        height: 20vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .faq-next> :nth-child(1) {
+        font-size: 18px;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+
+
+    .body1-buttons {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+        flex-wrap: wrap;
+    
+    }
+    
+    .body1-buttons input {
+        padding: 15px 114px 15px 6px;
+        background-color: black;
+        opacity: 0.5;
+        color: white;
+        border-radius: 5px;
+        font-size: 16px;
+        font-weight: 400;
+        border: 2px solid grey;
+    }
+    
+    .body1-buttons button {
+        background-color: red;
+        color: white;
+        font-size: 18px;
+        font-weight: 500;
+        padding: 13px 10px;
+        border-radius: 5px;
+        border: 2px solid red;
+    
+    }
+
+    .footer {
+        height: 70vh;
+        color: rgba(255, 255, 255, 0.7);
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding: 0 0px 0 0px;
+        text-decoration: underline;
+        font-size: 14px;
+    }
+    
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .body1>:nth-child(1) {
+        font-size: 28px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .body1>:nth-child(2),
+    .body1>:nth-child(3) {
+        font-size: 16px;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .first {
+        min-height: 500px;
+        padding: 10px;
+    }
+
+    .text1 :nth-child(1) {
+        font-size: 28px;
+        font-weight: 700;
+    }
+
+    .text1 :nth-child(2) {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+
+    .tv {
+        padding: 0 0 100px 10px;
+        margin-bottom: 100px;
+        position: relative;
+        bottom: 12vh;
+
+    }
+
+    .tv img {
+        width: 200px;
+        position: relative;
+        z-index: 1;
+
+    }
+
+    .tv video {
+        width: 135px;
+        position: absolute;
+        top: 29px;
+        left: 34px;
+    }
+
+    .second {
+        min-height: 500px;
+    }
+
+    .phone img {
+        width: 300px;
+        margin-right: 5vw;
+    }
+
+    .text2 :nth-child(1) {
+        font-size: 28px;
+    }
+
+    .text2 :nth-child(2) {
+        font-size: 16px;
+    }
+
+    .third {
+        min-height: 500px;
+    }
+
+    .text3 {
+        padding-left: 10vw;
+    }
+
+    .text3 :nth-child(1) {
+        font-size: 28px;
+    }
+
+    .text3 :nth-child(2) {
+        font-size: 16px;
+    }
+
+    .fourth {
+        height: 500px;
+    }
+
+    .fourth img {
+        width: 70vw;
+    }
+
+    .text4 :nth-child(1) {
+        font-size: 28px;
+    }
+
+    .text4 :nth-child(2) {
+        font-size: 16px;
+    }
+
+    .fifth {
+        height: 90vh;
+        color: white;
+        text-align: center;
+    
+    }
+    
+    .fifth h2 {
+        font-size: 28px;
+        font-weight: 700;
+        margin-bottom: 5px;
+    }
+
+    .faq {
+        width: 60vw;
+        margin: auto;
+        background-color: rgb(45, 45, 45);
+        padding: 6px;
+        font-size: 14px;
+        font-weight: 400;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+    
+    .faq-next {
+        margin-top: 12px;
+        height: 19vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .faq-next> :nth-child(1) {
+        font-size: 14px;
+        font-weight: 400;
+        margin-bottom: 7px;
+    }
+
+
+    .body1-buttons {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+        flex-wrap: wrap;
+    
+    }
+    
+    .body1-buttons input {
+        padding: 5px 50px 5px 0px;
+        background-color: black;
+        opacity: 0.5;
+        color: white;
+        border-radius: 5px;
+        font-size: 16px;
+        font-weight: 400;
+        border: 2px solid grey;
+    }
+    
+    .body1-buttons button {
+        background-color: red;
+        color: white;
+        font-size: 18px;
+        font-weight: 500;
+        padding: 5px 5px;
+        border-radius: 5px;
+        border: 2px solid red;
+    
+    }
+
+    .footer {
+        height: 80vh;
+        color: rgba(255, 255, 255, 0.7);
+        display: block;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding: 0 0px 0 0px;
+        text-decoration: underline;
+        font-size: 14px;
+    }
+
+    
+}
