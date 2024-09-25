@@ -22,7 +22,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 ![NFC4](https://github.com/MrXpertCode/Web-Development/assets/138540999/49c32ec7-4a59-4ee1-93d9-5b403231e1fe)
 
 ## Contact
-https://x.com/SujanmBhujel
+
 
 https://github.com/MrXpertCode/Web-Development
 
